@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业演示页面</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap');
+        
+        body {
+            font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        header {
+            width: 100%;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 40px 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            flex: 1;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        p {
+            line-height: 1.8;
+            font-size: 1.1rem;
+            color: #555;
+            text-align: justify;
+        }
+        
+        .content {
+            margin: 30px 0;
+        }
+        
+        .button-container {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 16px 48px;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(52, 152, 219, 0.4);
+            background: linear-gradient(135deg, #2980b9, #3498db);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>企业级前端演示</h2>
+    </header>
+    
+    <div class="container">
+        <h1>欢迎来到专业界面</h1>
+        
+        <div class="content">
+            <p>这是一个设计精良、简洁大方的现代网页演示。采用响应式布局，舒适的配色方案和流畅的用户体验。</p>
+            <p>我们致力于提供高质量的用户界面解决方案，注重细节与性能的平衡。</p>
+            <p>在下方您可以找到一个功能按钮，用于跳转到相关外部资源。</p>
+        </div>
+        
+        <div class="button-container">
+            <a href="https://hanime1.me" target="_blank" class="btn">进入目标站点</a>
+        </div>
+    </div>
+    
+    <footer>
+        © 2026 专业演示页面 | 所有交互均符合现代网页标准
+    </footer>
+</body>
+</html>
